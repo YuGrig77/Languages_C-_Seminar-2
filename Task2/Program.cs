@@ -6,7 +6,7 @@
 
 Console.Clear();
 
-int a = new Random().Next(100, 999);
+int a = new Random().Next(100, 1000);
 int first = a/100;
 int mid = a/10;
 int last = a-mid*10;
