@@ -12,4 +12,4 @@ int a = int.Parse(Console.ReadLine());
 
 int second = (a % 100)/10;
 
-Console.WriteLine($"{a} -> {first}");
+Console.WriteLine($"{a} -> {second}");
