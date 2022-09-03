@@ -19,8 +19,7 @@ if (0 <= num && num < 100)
 {
     Console.WriteLine($"{num} -> there is no third digit");
 }
-if (num > 99)
-{
-    Console.WriteLine(num.ToString()[2]);
-}
-
+if (num > 999)
+ {
+    Console.WriteLine(num.ToString()[2]); // выводит в string
+ }
