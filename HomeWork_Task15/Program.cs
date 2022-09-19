@@ -22,21 +22,3 @@ if(day == 5)
 if(day == 6) Console.Write($"{day} - Yep, it is a Saturday - a Weekend! Get ready to PARTY!");
 if(day == 7) Console.Write($"{day} - Yep, it is a Sunday - still a weekend, but get ready to work :-(");
 if(day > 7) Console.WriteLine("Come on, it's a week, enter number from 1 to 7!");
-
-// ++OR++
-
-// Console.Clear();
-
-// String[] Week = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-// Console.Write("Pls enter week's day number: ");
-// int num = int.Parse(Console.ReadLine());
-
-// if (num  >= 6 && num <= 7)
-// {
-//     Console.WriteLine($"{num} -> Yep, {Week[num-1]} - Is a Weekend, Get ready to PARTY!");
-// }
-// else
-// {
-//     Console.WriteLine($"{num} -> Nop, {Week[num-1]} - So sad, still hve to go work :-(");
-// }
-

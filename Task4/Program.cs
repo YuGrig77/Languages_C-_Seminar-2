@@ -15,5 +15,5 @@ if ((a % 7 == 0) && (a % 23 == 0))
 }
 else
 {
-     Console.WriteLine($"{a} -> Нет");
+    Console.WriteLine($"{a} -> Нет");
 }

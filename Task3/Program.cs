@@ -22,30 +22,3 @@ else
     int c = a % b;
     Console.WriteLine($"{a} не кратно {b}, Остаток -> {c}");
 }
-
-// ++OR++
-
-// Console.WriteLine("Введите первое число ");
-// int number1 = int.Parse(Console.ReadLine());
-
-// Console.WriteLine("Введите второе число ");
-// int number2 = int.Parse(Console.ReadLine());
-
-// int max = 0;
-
-// if (number1 > number2)
-// {
-//     max = number1 % number2;
-// }
-// else
-// {
-//     max = number2 % number1;
-// }
-// if (max == 0)
-// {
-//     Console.WriteLine($"{number1}, {number2} -> кратно");
-// }
-// else
-// {
-//     Console.WriteLine($"{number1}, {number2} -> некратно, остаток {max}");
-// }

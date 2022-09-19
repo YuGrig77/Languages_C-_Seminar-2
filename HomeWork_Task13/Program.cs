@@ -12,7 +12,7 @@ int num = int.Parse(Console.ReadLine());
 
 if (100 <= num && num < 1000)
 {
-    int ThirdDigit = num-((num/10)*10); 
+    int ThirdDigit = num - ((num / 10) * 10);
     Console.WriteLine($"{num} -> {ThirdDigit}");
 }
 if (0 <= num && num < 100)
@@ -20,6 +20,6 @@ if (0 <= num && num < 100)
     Console.WriteLine($"{num} -> there is no third digit");
 }
 if (num > 999)
- {
+{
     Console.WriteLine(num.ToString()[2]); // выводит в string
- }
+}
